@@ -14,7 +14,7 @@ function drawAtPosition({value = 0, position = 0} = {}) {
 	let y = canvas.height*(1 - value/optionsMenu.maxDisplayedValue);
 
 	ctx.clearRect(x-optionsMenu.gapSize, 0, width+optionsMenu.gapSize*2, canvas.height);
-	ctx.fillStyle = `hsl(${value/options.howManySortedNumbers*360},100,50)`;
+	ctx.fillStyle = `hsl(${value/optionsMenu.howManySortedNumbers*360},100,50)`;
 	ctx.fillRect(x, y, width, canvas.height*value/optionsMenu.maxDisplayedValue);
 }
 
