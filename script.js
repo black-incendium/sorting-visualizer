@@ -7,14 +7,14 @@ let copyArray = [1];
 let actions = [];
 let timeout;
 
-function drawAtPosition({value = 0, position = 0, color = optionsMenu.mainColor} = {}) {
+function drawAtPosition({value = 0, position = 0} = {}) {
 	let width = (canvas.width-optionsMenu.gapSize)/mainArray.length - optionsMenu.gapSize;
 	//coordinates of upper left corner of the drawn rectangle
 	let x = position*(canvas.width - optionsMenu.gapSize)/mainArray.length + optionsMenu.gapSize;
 	let y = canvas.height*(1 - value/optionsMenu.maxDisplayedValue);
 
 	ctx.clearRect(x-optionsMenu.gapSize, 0, width+optionsMenu.gapSize*2, canvas.height);
-	ctx.fillStyle = color;
+	ctx.fillStyle = `hsl(${value/options.howManySortedNumbers*360},100,50)`;
 	ctx.fillRect(x, y, width, canvas.height*value/optionsMenu.maxDisplayedValue);
 }
 
