@@ -1,0 +1,15 @@
+* {
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+body {
+	background-color: black;
+	overflow: hidden;
+}
+
+canvas {
+	position: absolute;
+	transform-origin: top left;
+	transform: scale(0.5);
+}

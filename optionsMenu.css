@@ -1,0 +1,124 @@
+.optionsMenu
+{
+	user-select: none;
+	background-color: black;
+	position: absolute;
+	left: 10px;
+	color: #ddd;
+	width: 250px;
+	text-align: center;
+	transition: 0.2s;
+	opacity: 0.5;
+	border: 1px solid white;
+	top: 10px;
+}
+
+.optionsMenu:hover
+{
+	opacity: 1;
+}
+
+.optionsMenu-container
+{
+	width: 100%;
+}
+
+.optionsMenu-option
+{
+	width: 100%;
+	margin-bottom: 14px;
+}
+
+.optionsMenu-option:first-child
+{
+	margin-top: 8px;
+}
+
+.optionsMenu-option:last-child
+{
+	margin-bottom: 0;
+}
+
+.optionsMenu-label
+{
+	margin-bottom: 2px;
+}
+
+.optionsMenu select 
+{
+	background-color: black;
+	color: white;
+	outline: none;
+}
+
+.optionsMenu input[type="checkbox"]
+{
+	transform: translateY(1.5px);
+	margin-right: 10px;
+}
+
+.optionsMenu-checkboxInput
+{
+	width: 80%;
+	text-align: left;
+	transform: translateX(9.375%);
+}
+
+.optionsMenu input
+{
+	box-sizing: border-box;
+}
+
+.optionsMenu input[type="range"]
+{
+	width: 85%;
+	cursor: pointer;
+}
+
+.optionsMenu input[type="text"]
+{
+	width: 85%;
+	background-color: black;
+	color: #ddd;
+	border: 1px solid white;
+	outline: none;
+	transition: 0.1s;
+	padding: 2px;
+}
+
+.optionsMenu input[type="text"]:focus
+{
+	border: 1px solid #aaf;
+}
+
+.optionsMenu input[type="button"]
+{
+	text-align: center;
+	color: #ddd;
+	width: 85%;
+	background-color: black;
+	border: 1px solid white;
+	transition: 0.1s;
+	padding: 2px;
+}
+
+.optionsMenu input[type="button"]:hover
+{
+	cursor: pointer;
+	background-color: #111;
+}
+
+.optionsMenu-toggleVisibility
+{
+	margin-top: 3px;
+	height: 2em;
+	width: 100%;
+	transition: 0.1s;
+	line-height: 2em;
+}
+
+.optionsMenu-toggleVisibility:hover
+{
+	background-color: #111;
+	cursor: pointer;
+}
