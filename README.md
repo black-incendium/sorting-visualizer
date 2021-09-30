@@ -3,9 +3,9 @@ Sorting algorithms visualizer is free-time project implemented in pure javascrip
 
 ## live version
 live version of project is available on this page in projects section:\
-[jakubkolodziej.com](jakubkolodziej.com 'homepage')\
+[jakubkolodziej.com](https://www.jakubkolodziej.com 'homepage')\
 direct link:\
-[jakubkolodziej.com/sorting-visualizer](jakubkolodziej.com/sorting-visualizer 'direct project link')
+[jakubkolodziej.com/sorting-visualizer](https://www.jakubkolodziej.com/sorting-visualizer 'direct project link')
 
 ------------
 
