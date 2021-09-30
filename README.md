@@ -14,4 +14,4 @@ If you encounter bug in project, have suggestion, or want to contact me for diff
 My mail: **contact@jakubkolodziej.com**
 
 ### license
-Project is under [NSN license](.../LICENSE.md)
+Project is under [NSN license](LICENSE.md)
